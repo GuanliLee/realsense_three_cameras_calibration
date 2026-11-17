@@ -1,0 +1,68 @@
+{
+  "camera": "cam_right",
+  "mode": "eye_in_hand",
+  "source_result_json": "2026-08-20_18-11-19_exclude_15-17_checkerboard_handeye.json",
+  "source_sample_count": 18,
+  "excluded_sample_indexes": [
+    15,
+    17
+  ],
+  "parent_frame_note": "/right/gripper_end_pos pose frame",
+  "child_frame": "cam_right_color_optical_frame",
+  "transform_convention": "T_gripper_camera; multiply camera-frame homogeneous points by this matrix to express them in the right gripper pose frame",
+  "translation_m": [
+    -0.07758078487714673,
+    0.0024252983793945793,
+    -0.01677577531155946
+  ],
+  "orientation_xyzw": [
+    -0.18623935831358288,
+    0.1632866742645208,
+    -0.6583798263038955,
+    0.7107660428992298
+  ],
+  "rpy_deg": [
+    -28.672065873598314,
+    -0.7514686474486743,
+    -85.42558615490786
+  ],
+  "matrix": [
+    [
+      0.07974693264736965,
+      0.8750872368610371,
+      0.4773497194052291,
+      -0.07758078487714673
+    ],
+    [
+      -0.9967288586057707,
+      0.06370181146199494,
+      0.049735919001242246,
+      0.0024252983793945793
+    ],
+    [
+      0.013115226104553374,
+      -0.47975452796130597,
+      0.8773047268451544,
+      -0.01677577531155946
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "validation": {
+    "verdict": "PASS",
+    "fixed_target_position_error_m": {
+      "mean": 0.0027526368181511065,
+      "median": 0.0026173818706167005,
+      "max": 0.004775978067441494
+    },
+    "fixed_target_rotation_error_deg": {
+      "mean": 0.348312714648891,
+      "median": 0.3308422561228836,
+      "max": 0.7024799537422388
+    }
+  }
+}
